@@ -1,0 +1,29 @@
+[ sqlplus / as sysdba ]   -- connect to your sql database as sys
+
+[ show user ]  -- show the users
+
+[ all_users ]   -- select from all users i.e schema
+
+[ sqlplus hr/hr ]  -- to log in into your hr/hr i.e db/password 
+
+[ alter user HR account unlock ]  --if the account is blocked run this to unlock 
+
+[ alter user hr identified by hr; ]   -- alter the user
+
+[ select * from all_tables ]  -- to see all the tables in the database
+
+[ set lines 2000 ]  -- set the number of lines
+
+[ select * from <table name> ]   -- see data from a specified table
+
+[ set lines 900; ]
+
+-- set lines command is used to arrange the tables in a proper order changing the width
+
+/
+
+[ select * from v$version ]   -- check the present installed sql or oracle version
+
+[ help index ]    -- prompt help
+
+[ help <name> ]    -- prompt a help on the specified command 

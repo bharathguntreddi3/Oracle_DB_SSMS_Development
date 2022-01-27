@@ -18,6 +18,8 @@
 
 [ set lines 900; ]
 
+[ show feedback ]   --feedback on rows
+
 -- set lines command is used to arrange the tables in a proper order changing the width
 
 /
@@ -27,3 +29,24 @@
 [ help index ]    -- prompt help
 
 [ help <name> ]    -- prompt a help on the specified command 
+
+/*format tables*/
+
+[show pagesize]  --shows the size of the page
+
+[set pagesize 500]  --sets pagesize to 500
+
+[set linesize <size>]   --set a linesize
+
+[ttitle 'top_title']   --set a title for the top of the page
+
+[btitle 'bottom_title']    --set a title for the bottom of the page
+
+[ ttitle off ]   --off top title
+
+[ btitle off ]   --off bottom title
+
+
+
+
+

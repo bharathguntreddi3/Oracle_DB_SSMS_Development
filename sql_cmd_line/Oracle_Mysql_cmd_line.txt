@@ -2,7 +2,15 @@
 
 [ show user ]  -- show the users
 
+[ use <database_name> ]   --select a database from schema to workwith
+
 [ all_users ]   -- select from all users i.e schema
+
+[ select <table_name> from user_tables ]   --show tables owned by the user
+
+[ select <table_name> from dba_tables ]    --show tables form the database
+
+[ select <table_name> from all_tables ]    --show the accessible tables for the user
 
 [ sqlplus hr/hr ]  -- to log in into your hr/hr i.e db/password 
 

@@ -1,22 +1,27 @@
 /*pl/sql programe to check and print armstrong numbers*/
-SET SERVEROUTPUT ON
-DECLARE 
-    sum number := 0;
-    remi number ;
-    n number := '&n';
+
+-- set serveroutput on
+DECLARE
+
+	n number := '&n';
+    sumo number := 0;
+    remi number;
+	m number;
+    
 BEGIN
-    WHILE( n > 0 )
-        LOOP
+	m := n;
+    while n>0
+    loop
             remi := mod(n,10);
-            sum := sum  + (remi * remi * remi);     -- cube(remi);
-            n := TRUNC(n,10);
-        END LOOP;
-        dbms_output.put_line(sum );
-    IF( sum == n )
-        THEN
-            dbms_output.put_line('armstrong' || sum);
-    ELSE
+            sums := sumo  + (remi * remi * remi);     -- cube(remi);
+            n := trunc(n,10);
+    end loop;
+        dbms_output.put_line(sumo);
+    if (m=sums)
+    then
+        dbms_output.put_line('armstrong');
+    else
         dbms_output.put_line('not armstrong');
-        END IF;
-END;
+    end if;
+end;
 /

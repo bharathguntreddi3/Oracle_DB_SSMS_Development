@@ -1,5 +1,5 @@
 /*pl/sql program for reverse of a number*/
-set serveroutput on -- HEADER
+-- set serveroutput on 
 DECLARE
 	n NUMBER(5) := '&n';
 	rev NUMBER(5) := 0;

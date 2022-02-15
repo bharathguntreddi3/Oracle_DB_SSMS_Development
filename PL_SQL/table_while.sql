@@ -1,5 +1,5 @@
 /*pl/sql  programe to print multiplication table*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE
     n number := '&n';
     i number ;

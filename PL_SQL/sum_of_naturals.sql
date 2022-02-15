@@ -1,5 +1,5 @@
 /*PL/SQL programe to print sum of the natural numbers*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE
     n number := '&n';
     sum number ;

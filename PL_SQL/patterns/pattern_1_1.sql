@@ -1,5 +1,5 @@
 /*PL/SQL programe to print classic pattern*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE
     n number := '&n';
     i number ;

@@ -1,5 +1,5 @@
 /*pl/sql working with the localk and global variables*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE 
    -- Global variables  
    num1 number := 95;  

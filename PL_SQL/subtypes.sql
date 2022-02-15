@@ -1,5 +1,5 @@
 /*pl/sql subtype is the subset of the original datatype i.e the base TYPE*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE 
    SUBTYPE name IS char(20); 
    SUBTYPE message IS varchar2(100); 

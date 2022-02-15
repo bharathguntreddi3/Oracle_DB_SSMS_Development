@@ -1,20 +1,22 @@
 /*pl/sql programe to find the greatest of the numbers*/
-SET SERVEROUTPUT ON
+-- set serveroutput on
 DECLARE
+
     a NUMBER(5) := '&a';
     b NUMBER(5) := '&b';
     c NUMBER(5) := '&c';
+
 BEGIN
-    if( a > b && a > c )
+    if a > b and a > c 
         THEN
-            dbms_output.putline(a);
-    ELSIF( b > a && b > c )
+            dbms_output.put_line(a|| 'greatest');
+    ELSIF b > a and b > c 
         THEN
-            dbms_output.putline(b);
+            dbms_output.put_line(b|| 'greatest');
     ELSE
         THEN
-        dbms_output.putline(c);
+        dbms_output.put_line(c|| 'greatest');
     END IF;
-    END IF;
+
 END;
 /

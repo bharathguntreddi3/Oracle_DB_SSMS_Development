@@ -1,5 +1,5 @@
 /*PL/SQL programe to print factorial of a number*/
-SET serveroutput ON
+-- SET serveroutput ON
 DECLARE
     n number := '&n';
     fact number := 1;

@@ -1,5 +1,5 @@
 /*pl/sql programe to check prime number*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 declare
     n number := '&n';
     i number := 2;

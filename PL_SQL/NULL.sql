@@ -1,4 +1,5 @@
 /*pl/sql excutable null part which doesnt EXISTS*/
+-- SET SERVEROUTPUT ON
 DECLARE 
    num1 INTEGER; 
    num2 REAL; 

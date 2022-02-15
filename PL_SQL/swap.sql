@@ -1,5 +1,5 @@
 /*pl/sql swapping of two numbers without using 3rd variable*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 declare
     a number := '&a';
     b number := '&b';

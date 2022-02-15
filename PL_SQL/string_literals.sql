@@ -1,7 +1,7 @@
 /*pl/sql using string literals*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE 
-   message  varchar2(30) := 'hello''world'; 
+   messages varchar2(30) := 'hello''world'; 
 BEGIN 
    dbms_output.put_line(message); 
 END; 

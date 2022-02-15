@@ -1,4 +1,4 @@
-set serveroutput on
+-- set serveroutput on
 declare 
 BEGIN
 	abc varchar(10) := 'Hello World!';

@@ -1,5 +1,5 @@
 /*pl/sql using constant key keyword for constant values*/
-PI CONSTANT NUMBER := 3.141592654; 
+-- PI CONSTANT NUMBER := 3.141592654; 
 DECLARE 
    pi constant number := 3.141592654;      -- constant declaration 
    radius number(5,2);      

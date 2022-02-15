@@ -1,5 +1,5 @@
 /*pl/sql programe to print palindrome*/
-SET SERVEROUTPUT ON
+-- SET SERVEROUTPUT ON
 DECLARE
     n number := '&n';
     m number := n;

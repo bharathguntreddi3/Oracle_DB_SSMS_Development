@@ -1,5 +1,5 @@
-/*pl/sql swapping if two numbers using 3rd variable*/
-SET SERVEROUTPUT ON
+/*pl/sql swapping of two numbers using 3rd variable*/
+-- SET SERVEROUTPUT ON
 declare
     a number := '&a';
     b number := '&b';

@@ -1,0 +1,19 @@
+create user bharath identified by bharath;
+
+show user;
+
+grant create session, create view, create table, create synonym to bharath;
+
+-- can access the previlages accross the bharath user only
+-- public will give access to all the users
+
+connect bharath/bharath;
+
+
+grant select on departments to bharath;
+-- gives access to table
+-- insert, update, delete  access to bharath
+
+create synonym dept for system.department    -- aliasing or creating synonym for the department
+ 
+
